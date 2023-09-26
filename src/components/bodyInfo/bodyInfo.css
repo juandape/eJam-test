@@ -1,0 +1,25 @@
+.container_body_logos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.container_body_steps{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.container_body_steps_single{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.img_steps{
+  width: 20px;
+}
+
+.img_bigclarifion{
+  width: 250px
+}
