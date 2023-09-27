@@ -10,9 +10,28 @@ span {
   display: flex;
 }
 
+.ionizer_description{
+  margin-left: 12px;
+}
+
+.ionizer-price{
+  display: flex;
+  font-size: 12px;
+}
+
+.ionizer_stars{
+  display: flex;
+  align-items: center;
+}
+
+.ionizer_text{
+  font-size: 12px;
+}
+
 .container_tick {
   display: flex;
   align-items: center;
+  font-size: 12px;
 }
 
 .img_tick {

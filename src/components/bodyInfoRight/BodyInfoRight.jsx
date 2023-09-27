@@ -13,12 +13,13 @@ export default function BodyInfoRight() {
           <div>
             <img src='../../public/smallclarifion.png' alt='smallclarifion' />
           </div>
-          <div>
+          <div className='ionizer_description'>
+          <div className='ionizer-price'>
             <div>Clarifion Air Ionizer</div>
             <div>$180</div>
             <span>$84</span>
           </div>
-          <div>
+          <div className='ionizer_stars'>
             <img src='../../public/Star.png' alt='star' />
             <img src='../../public/Star.png' alt='star' />
             <img src='../../public/Star.png' alt='star' />
@@ -29,10 +30,11 @@ export default function BodyInfoRight() {
             <input type='radio' checked />
             <label>12 left in Stock</label>
           </div>
-          <div>
+          <div className='ionizer_text'>
             Simply plug a Clarifion into any standard outlet and replace bulky,
             expensive air purifiers with a simple.
-          </div>
+            </div>
+            </div>
         </div>
         <div>
           <div className='container_tick'>
