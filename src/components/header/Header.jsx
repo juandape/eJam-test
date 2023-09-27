@@ -3,10 +3,10 @@ import './header.css';
 export default function Header() {
   return (
     <div className='header-container'>
-      <input type='radio' name='header_text' id='Slider1' checked/>
-      <input type='radio' name='header_text' id='Slider2' />
-      <input type='radio' name='header_text' id='Slider3' />
-      <input type='radio' name='header_text' id='Slider4' />
+      <input type='radio' name='header_text' id='Slider1' className='radio_slider' checked/>
+      <input type='radio' name='header_text' id='Slider2' className='radio_slider' />
+      <input type='radio' name='header_text' id='Slider3' className='radio_slider' />
+      <input type='radio' name='header_text' id='Slider4' className='radio_slider' />
       <div className='header'>
         <div className='header_text'>
           <img src='images/Vector.png' alt='vector' className='header_img' />

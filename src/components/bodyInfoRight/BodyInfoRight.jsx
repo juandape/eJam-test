@@ -20,8 +20,8 @@ export default function BodyInfoRight() {
           <div className='ionizer_description'>
             <div className='ionizer-price'>
               <div>Clarifion Air Ionizer</div>
-              <div className='price_low'>$180</div>
-              <span>$84</span>
+              <div className='price_high'>$180</div>
+              <span className='price_low'>$84</span>
             </div>
             <div className='ionizer_stars'>
               <img src='images/Star.png' alt='star' className='img_ion_stars' />

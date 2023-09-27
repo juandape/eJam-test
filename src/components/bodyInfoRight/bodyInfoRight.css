@@ -34,7 +34,7 @@ span {
   justify-content: space-between;
 }
 
-.price_low{
+.price_high{
   color: rgba(150, 150, 150, 1);
   margin-left: 50px;
   font-size: 8px;
@@ -166,13 +166,28 @@ margin-bottom: 2px;
 
   .img_smallclarifion{
     margin-top: 14px;
+    margin-left: 10px;
   }
   .ionizer_description{
     margin-top: 10px;
   }
   .ionizer-price{
-    margin-top: 10px;
+    width: 200px;
   }
+
+  .price_high{
+    margin-left: 15px;
+  }
+
+  .price_low{
+    margin-right: 30px;
+  }
+
+  .ionizer_text{
+    margin-right: 20px;
+    font-size: 10px;
+  }
+
   .container_tick{
     margin-bottom: 0px;
   }
