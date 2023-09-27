@@ -11,65 +11,57 @@ export default function BodyInfoRight() {
         </div>
         <div className='container_ionizer'>
           <div>
-            <img src='../../public/smallclarifion.png' alt='smallclarifion' className='img_smallclarifion'/>
+            <img
+              src='images/smallclarifion.png'
+              alt='smallclarifion'
+              className='img_smallclarifion'
+            />
           </div>
           <div className='ionizer_description'>
-          <div className='ionizer-price'>
-            <div>Clarifion Air Ionizer</div>
-            <div className='price_low'>$180</div>
-            <span>$84</span>
-          </div>
-          <div className='ionizer_stars'>
-            <img src='../../public/Star.png' alt='star' className='img_ion_stars'/>
-            <img src='../../public/Star.png' alt='star' className='img_ion_stars'/>
-            <img src='../../public/Star.png' alt='star' className='img_ion_stars'/>
-            <img src='../../public/Star.png' alt='star' className='img_ion_stars'/>
-            <img src='../../public/Star.png' alt='star' className='img_ion_stars'/>
-          </div>
-          <div className='stock'>
-            <input type='radio' checked className='radio'/>
-            <label>12 left in Stock</label>
-          </div>
-          <div className='ionizer_text'>
-            Simply plug a Clarifion into any standard outlet and replace bulky,
-            expensive air purifiers with a simple.
+            <div className='ionizer-price'>
+              <div>Clarifion Air Ionizer</div>
+              <div className='price_low'>$180</div>
+              <span>$84</span>
             </div>
+            <div className='ionizer_stars'>
+              <img src='images/Star.png' alt='star' className='img_ion_stars' />
+              <img src='images/Star.png' alt='star' className='img_ion_stars' />
+              <img src='images/Star.png' alt='star' className='img_ion_stars' />
+              <img src='images/Star.png' alt='star' className='img_ion_stars' />
+              <img src='images/Star.png' alt='star' className='img_ion_stars' />
             </div>
+            <div className='stock'>
+              <input type='radio' checked className='radio' />
+              <label>12 left in Stock</label>
+            </div>
+            <div className='ionizer_text'>
+              Simply plug a Clarifion into any standard outlet and replace
+              bulky, expensive air purifiers with a simple.
+            </div>
+          </div>
         </div>
         <div>
           <div className='container_tick'>
-            <img
-              src='../../public/tick-circle.png'
-              alt='tick'
-              className='img_tick'
-            />
+            <img src='images/tick-circle.png' alt='tick' className='img_tick' />
             <p>
               Negative Ion Technology may <strong>help with allergens</strong>
             </p>
           </div>
           <div className='container_tick'>
-            <img
-              src='../../public/tick-circle.png'
-              alt='tick'
-              className='img_tick'
-            />
+            <img src='images/tick-circle.png' alt='tick' className='img_tick' />
             <p>
               Designed for <strong>air rejuvenation</strong>
             </p>
           </div>
           <div className='container_tick'>
-            <img
-              src='../../public/tick-circle.png'
-              alt='tick'
-              className='img_tick'
-            />
+            <img src='images/tick-circle.png' alt='tick' className='img_tick' />
             <p>
               <strong>Perfect for every room</strong> in all types of places.
             </p>
           </div>
           <div className='container_discount'>
             <img
-              src='../../public/percentage.png'
+              src='images/percentage.png'
               alt='percentage'
               className='img_percentage'
             />
@@ -85,22 +77,18 @@ export default function BodyInfoRight() {
             <p>Free Shipping</p>
             <p className='stick'>|</p>
             <img
-              src='../../public/lock-black.png'
+              src='images/lock-black.png'
               alt='lock'
               className='img_lock-black'
             />
             <p>Secure 256-bit SSL encryption.</p>
             <p className='stick'>|</p>
-            <img
-              src='../../public/cards.png'
-              alt='cards'
-              className='img_cards'
-            />
+            <img src='images/cards.png' alt='cards' className='img_cards' />
           </div>
           <div className='dismiss'>No thanks, I don’t want this.</div>
           <div className='satisfaction'>
             <img
-              src='../../public/satisfaction.png'
+              src='images/satisfaction.png'
               alt='lock'
               className='img_satisfaction'
             />

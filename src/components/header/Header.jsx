@@ -7,7 +7,7 @@ export default function Header() {
     <div className='header'>
         <div className='header_text'>
           <img
-            src='../../public/Vector.png'
+            src='images/Vector.png'
             alt='vector'
             className='header_img'
           />
@@ -16,7 +16,7 @@ export default function Header() {
 
         <div className='header_text'>
           <img
-            src='../../public/ph_truck-light.png'
+            src='images/ph_truck-light.png'
             alt='truck'
             className='header_img'
           />
@@ -25,7 +25,7 @@ export default function Header() {
 
         <div className='header_text'>
           <img
-            src='../../public/mdi_cards-heart-outline.png'
+            src='images/mdi_cards-heart-outline.png'
             alt='heart'
             className='header_img'
           />
@@ -34,7 +34,7 @@ export default function Header() {
 
         <div className='header_text'>
           <img
-            src='../../public/fluent_arrow-sync-checkmark-20-regular.png'
+            src='images/fluent_arrow-sync-checkmark-20-regular.png'
             alt='heart'
             className='header_img'
           />

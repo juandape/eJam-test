@@ -6,7 +6,7 @@ export default function BodyInfoLeft() {
       <div className='bodyInfoLeft_container'>
         <div>
           <img
-            src='../../public/bigclarifion.png'
+            src='images/bigclarifion.png'
             alt='clarifion_img'
             className='img_bigclarifion'
           />
@@ -14,24 +14,20 @@ export default function BodyInfoLeft() {
         <div className='bodyInfoLeft_customer_container'>
           <div className='bodyInfoLeft_customer_name'>
             <div>
-              <img
-                src='../../public/avatar.png'
-                alt='avatar'
-                className='avatar'
-              />
+              <img src='images/avatar.png' alt='avatar' className='avatar' />
             </div>
             <div>
               <div className='bodyInfoLeft_stars'>
-                <img src='../../public/Star.png' alt='star' />
-                <img src='../../public/Star.png' alt='star' />
-                <img src='../../public/Star.png' alt='star' />
-                <img src='../../public/Star.png' alt='star' />
-                <img src='../../public/Star.png' alt='star' />
+                <img src='images/Star.png' alt='star' />
+                <img src='images/Star.png' alt='star' />
+                <img src='images/Star.png' alt='star' />
+                <img src='images/Star.png' alt='star' />
+                <img src='images/Star.png' alt='star' />
               </div>
               <div className='bodyInfoLeft_customer_container-info'>
                 <div>Ken T.</div>
                 <img
-                  src='../../public/verify.png'
+                  src='images/verify.png'
                   alt='verify'
                   className='verify-icon'
                 />

@@ -7,10 +7,14 @@ export default function BodyInfo() {
     <>
       <div className='container_body'>
         <div className='container_body_logos'>
-          <img src='../../public/clarifionlogo.png' alt='logo' className='img_logo'/>
+          <img src='images/clarifionlogo.png' alt='logo' className='img_logo' />
           <div className='container_body_logos_right'>
-            <img src='../../public/mcafee.png' alt='mcafee' className='img_mcafee'/>
-            <img src='../../public/norton-antivirus-logo.png' alt='norton' className='img_norton'/>
+            <img src='images/mcafee.png' alt='mcafee' className='img_mcafee' />
+            <img
+              src='images/norton-antivirus-logo.png'
+              alt='norton'
+              className='img_norton'
+            />
           </div>
         </div>
         <div>
@@ -24,7 +28,7 @@ export default function BodyInfo() {
         <div className='container_body_steps'>
           <div className='container_body_steps_single'>
             <img
-              src='../../public/greencheck.png'
+              src='images/greencheck.png'
               alt='check'
               className='img_steps'
             />
@@ -33,7 +37,7 @@ export default function BodyInfo() {
           </div>
           <div className='container_body_steps_single'>
             <img
-              src='../../public/greencheck.png'
+              src='images/greencheck.png'
               alt='check'
               className='img_steps'
             />
@@ -42,19 +46,19 @@ export default function BodyInfo() {
           </div>
           <div className='container_body_steps_single'>
             <img
-              src='../../public/numberthree.png'
+              src='images/numberthree.png'
               alt='three'
               className='img_steps'
             />
-            <div className='steps_number'><strong>Step 3 :</strong></div>
-            <div><strong>Special Offer</strong></div>
+            <div className='steps_number'>
+              <strong>Step 3 :</strong>
+            </div>
+            <div>
+              <strong>Special Offer</strong>
+            </div>
           </div>
           <div className='container_body_steps_single'>
-            <img
-              src='../../public/numberfour.png'
-              alt='four'
-              className='img_steps'
-            />
+            <img src='images/numberfour.png' alt='four' className='img_steps' />
             <div className='steps_number'>Step 4 :</div>
             <div>Confirmation</div>
           </div>
