@@ -6,7 +6,9 @@ export default function Footer() {
       <div className='footer_left'>
         <div>Copyright (c) 2023</div>
         <div className='footer_center'>|</div>
-        <a href='mailto:Clarifionsupport@clarifion.com' className='mail'>Clarifionsupport@clarifion.com</a>
+        <a href='mailto:Clarifionsupport@clarifion.com' className='mail'>
+          Clarifionsupport@clarifion.com
+        </a>
       </div>
       <div className='footer_right'>
         <img src='images/lock.png' alt='lock' className='footer_img' />
