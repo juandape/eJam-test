@@ -1,7 +1,93 @@
-.bodyInfoRight_uppertext{
+.bodyInfoRight_uppertext {
   font-size: 22px;
 }
 
-span{
-  color: rgba(44, 126, 248, 1)
+span {
+  color: rgba(44, 126, 248, 1);
+}
+
+.container_ionizer{
+  display: flex;
+}
+
+.container_tick {
+  display: flex;
+  align-items: center;
+}
+
+.img_tick {
+  height: 15px;
+  margin-right: 5px;
+}
+
+.container_discount {
+  display: flex;
+  align-items: center;
+  background-color: rgba(237, 243, 253, 1);
+  border-radius: 8px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding-left: 15px
+}
+
+.img_percentage {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.claim {
+  background-color: rgba(89, 174, 67, 1);
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+}
+
+.shipping {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgba(207, 207, 207, 1);
+  border-radius: 5px;
+  font-size: 7px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-top: 10px;
+}
+
+.stick {
+  font-size: 20px;
+  color: rgba(207, 207, 207, 1);
+  margin: -4px 2px -4px 2px
+
+}
+
+.img_lock-black {
+  height: 10px;
+}
+
+.img_cards {
+  height: 15px;
+}
+
+.dismiss{
+  color: rgba(248, 44, 44, 1);
+  text-decoration: underline;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.satisfaction{
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  text-align: justify;
+}
+
+.img_satisfaction{
+  height: 65px;
+  margin-right: 5px;
 }
