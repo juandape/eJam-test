@@ -68,7 +68,7 @@ input {
   #Slider1:checked ~ .header .header_text:nth-of-type(4) {
     transform: translate(300%, 0);
   }
-  /* Estado 2 */
+
   #Slider2:checked ~ .header .header_text:nth-of-type(1) {
     transform: translate(-100%, 0);
   }
@@ -81,7 +81,7 @@ input {
   #Slider2:checked ~ .header .header_text:nth-of-type(4) {
     transform: translate(200%, 0);
   }
-  /* Estado 3 */
+
   #Slider3:checked ~ .header .header_text:nth-of-type(1) {
     transform: translate(-200%, 0);
   }
@@ -94,7 +94,7 @@ input {
   #Slider3:checked ~ .header .header_text:nth-of-type(4) {
     transform: translate(100%, 0);
   }
-  /* Estado 4 */
+
   #Slider4:checked ~ .header .header_text:nth-of-type(1) {
     transform: translate(-300%, 0);
   }
@@ -107,8 +107,6 @@ input {
   #Slider4:checked ~ .header .header_text:nth-of-type(4) {
     transform: translate(0%, 0);
   }
-
-
 
   .header .ArrowLeft,
   .header .ArrowRight {
