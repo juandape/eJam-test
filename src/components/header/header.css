@@ -26,7 +26,7 @@
   cursor: pointer;
 }
 
-.arrows {
+.Arrow1, .Arrow2, .Arrow3, .Arrow4 {
   display: none;
 }
 input {
@@ -36,24 +36,17 @@ input {
 @media (max-width: 768px) {
   .header {
     overflow-x: hidden;
-    white-space: nowrap;
     position: relative;
+    white-space: nowrap;
   }
   .header_text {
     width: 100%;
     margin-top: 10px;
     margin-left: 80px;
-    /* position: absolute; */
+    position: absolute;
     background-size: cover;
     transition: all 0.5s ease;
-  }
-
-  .arrows {
-    display: inline-flex;
-    align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 5px;
+    overflow-y: hidden;
   }
 
   #Slider1:checked ~ .header .header_text:nth-of-type(1) {
@@ -68,7 +61,7 @@ input {
   #Slider1:checked ~ .header .header_text:nth-of-type(4) {
     transform: translate(300%, 0);
   }
-
+  /* Estado 2 */
   #Slider2:checked ~ .header .header_text:nth-of-type(1) {
     transform: translate(-100%, 0);
   }
@@ -81,7 +74,7 @@ input {
   #Slider2:checked ~ .header .header_text:nth-of-type(4) {
     transform: translate(200%, 0);
   }
-
+  /* Estado 3 */
   #Slider3:checked ~ .header .header_text:nth-of-type(1) {
     transform: translate(-200%, 0);
   }
@@ -94,32 +87,34 @@ input {
   #Slider3:checked ~ .header .header_text:nth-of-type(4) {
     transform: translate(100%, 0);
   }
-
-  #Slider4:checked ~ .header .header_text:nth-of-type(1) {
-    transform: translate(-300%, 0);
+  /* Estado 4 */
+  /* #Slider4:checked ~ .header .header_text:nth-of-type(1) {
+    transform: translate(400%, 0);
   }
   #Slider4:checked ~ .header .header_text:nth-of-type(2) {
-    transform: translate(-200%, 0);
+    transform: translate(300%, 0);
   }
   #Slider4:checked ~ .header .header_text:nth-of-type(3) {
-    transform: translate(-100%, 0);
+    transform: translate(200%, 0);
   }
   #Slider4:checked ~ .header .header_text:nth-of-type(4) {
-    transform: translate(0%, 0);
-  }
+    transform: translate(100%, 0);
+  } */
+
+
 
   .header .ArrowLeft,
   .header .ArrowRight {
     position: absolute;
-    margin-top: 10px;
+    margin-top: 15px;
     display: none;
     user-select: none;
   }
   .header .ArrowLeft {
-    left: 0px;
+    left: 20px;
   }
   .header .ArrowRight {
-    right: 0px;
+    right: 20px;
   }
 
   #Slider1:checked ~ .header .Arrow1 {
