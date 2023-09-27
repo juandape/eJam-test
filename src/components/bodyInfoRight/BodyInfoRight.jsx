@@ -3,7 +3,7 @@ import './bodyInfoRight.css';
 export default function BodyInfoRight() {
   return (
     <>
-      <div>
+      <div className='bodyInfoRight_container'>
         <div className='bodyInfoRight_uppertext'>
           <span>ONE TIME ONLY</span> special price for 6 extra Clarifion for
           only

@@ -28,7 +28,7 @@ export default function BodyInfo() {
               alt='check'
               className='img_steps'
             />
-            <div>Step 1 :</div>
+            <div className='steps_number'>Step 1 :</div>
             <div>Cart Review</div>
           </div>
           <div className='container_body_steps_single'>
@@ -37,7 +37,7 @@ export default function BodyInfo() {
               alt='check'
               className='img_steps'
             />
-            <div>Step 2 :</div>
+            <div className='steps_number'>Step 2 :</div>
             <div>Checkout</div>
           </div>
           <div className='container_body_steps_single'>
@@ -46,7 +46,7 @@ export default function BodyInfo() {
               alt='three'
               className='img_steps'
             />
-            <div><strong>Step 3 :</strong></div>
+            <div className='steps_number'><strong>Step 3 :</strong></div>
             <div><strong>Special Offer</strong></div>
           </div>
           <div className='container_body_steps_single'>
@@ -55,7 +55,7 @@ export default function BodyInfo() {
               alt='four'
               className='img_steps'
             />
-            <div>Step 4 :</div>
+            <div className='steps_number'>Step 4 :</div>
             <div>Confirmation</div>
           </div>
         </div>

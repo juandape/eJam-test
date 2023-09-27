@@ -34,3 +34,20 @@
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 780px){
+  .footer{
+    flex-direction: column;
+  }
+  .footer_right{
+    margin-right: 0px;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .footer_left{
+    margin-left: 0px;
+    align-items: center;
+    margin-top: 20px;
+  }
+}

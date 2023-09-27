@@ -1,3 +1,11 @@
+.bodyInfoRight_container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+}
+
+
 .bodyInfoRight_uppertext {
   font-size: 18px;
   margin-bottom: 5px;
@@ -143,4 +151,39 @@ margin-bottom: 2px;
 .img_satisfaction{
   height: 60px;
   margin-right: 5px;
+}
+
+@media (max-width: 780px){
+.bodyInfoRight_container{
+  width: 280px;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .container_ionizer{
+    align-items: center;
+  }
+
+  .img_smallclarifion{
+    margin-top: 14px;
+  }
+  .ionizer_description{
+    margin-top: 10px;
+  }
+  .ionizer-price{
+    margin-top: 10px;
+  }
+  .container_tick{
+    margin-bottom: 0px;
+  }
+  .container_discount{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .shipping{
+    margin-top: 10px;
+  }
+  .satisfaction{
+    margin-top: 10px;
+  }
 }

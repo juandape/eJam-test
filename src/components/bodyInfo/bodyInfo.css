@@ -64,6 +64,46 @@
   background-color: rgba(250, 250, 250, 1);
   border-radius: 5px;
   padding: 20px;
-  width: 60%;
+  width: 650px;
   margin: 0 auto;
+}
+
+@media (max-width: 780px){
+  .container_body_fullinfo{
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+  }
+  .container_body_steps{
+    width: 400px;
+  }
+  .container_body_logos{
+    margin-left: 0px;
+  }
+  .container_body_logos_right{
+    margin-right: 0px;
+  }
+
+  .steps_number{
+    display: none;
+  }
+
+  .container_body_steps_single{
+    flex-direction: column;
+  }
+
+  .img_logo{
+    height: 20px;
+    margin-left: 10px;
+  }
+
+  .img_mcafee{
+    height: 20px;
+  }
+
+  .img_norton{
+    height: 20px;
+    margin-right: 10px;
+  }
+
 }
