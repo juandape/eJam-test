@@ -7,10 +7,10 @@ export default function BodyInfo() {
     <>
       <div className='container_body'>
         <div className='container_body_logos'>
-          <img src='../../public/clarifionlogo.png' alt='logo' />
+          <img src='../../public/clarifionlogo.png' alt='logo' className='img_logo'/>
           <div className='container_body_logos_right'>
-            <img src='../../public/mcafee.png' alt='mcafee' />
-            <img src='../../public/norton-antivirus-logo.png' alt='norton' />
+            <img src='../../public/mcafee.png' alt='mcafee' className='img_mcafee'/>
+            <img src='../../public/norton-antivirus-logo.png' alt='norton' className='img_norton'/>
           </div>
         </div>
         <div>
@@ -46,8 +46,8 @@ export default function BodyInfo() {
               alt='three'
               className='img_steps'
             />
-            <div>Step 3 :</div>
-            <div>Special Offer</div>
+            <div><strong>Step 3 :</strong></div>
+            <div><strong>Special Offer</strong></div>
           </div>
           <div className='container_body_steps_single'>
             <img

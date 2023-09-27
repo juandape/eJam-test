@@ -3,8 +3,22 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   margin-left:60px;
+}
+
+.img_logo{
+  height: 25px;
+}
+
+.img_norton{
+  height: 25px;
+}
+
+.img_mcafee{
+  height: 25px;
+  margin-right: 10px;
 }
 
 .container_body_logos_right {
@@ -15,19 +29,24 @@
 .container_body_progress {
   width: 100%;
   text-align: center;
-  font-size: 48px;
+  font-size: 40px;
+  margin-bottom: 5px;
 }
 
 .container_body_progress_text {
   width: 100%;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
+  margin-bottom: 25px;
 }
 
 .container_body_steps {
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  width: 60%;
+  font-size: 12px;
+  align-items: center;
+  margin: 0 auto 20px;
 }
 
 .container_body_steps_single {
@@ -43,7 +62,8 @@
 .container_body_fullinfo{
   display: flex;
   background-color: rgba(250, 250, 250, 1);
+  border-radius: 5px;
   padding: 20px;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }

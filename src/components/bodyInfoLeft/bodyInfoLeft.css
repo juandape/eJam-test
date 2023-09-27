@@ -3,7 +3,7 @@
 }
 
 .img_bigclarifion {
-  width: 350px;
+  width: 300px;
 }
 
 .avatar {
@@ -19,7 +19,7 @@
 .bodyInfoLeft_customer_container {
   background-color: white;
   padding: 5px;
-  width: 340px;
+  width: 290px;
   border-radius: 5px;
 }
 
@@ -32,6 +32,7 @@
 .bodyInfoLeft_customer_name {
   display: flex;
   align-items: center;
+  padding-top: 8px;
 }
 
 .verified {
@@ -45,5 +46,7 @@
 }
 
 .review-text{
-  font-size: 10px;
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: justify;
 }

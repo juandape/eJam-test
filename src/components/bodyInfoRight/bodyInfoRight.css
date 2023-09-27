@@ -1,5 +1,10 @@
 .bodyInfoRight_uppertext {
-  font-size: 22px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.img_smallclarifion{
+  height: 100px;
+  margin-right: 5px;
 }
 
 span {
@@ -17,21 +22,48 @@ span {
 .ionizer-price{
   display: flex;
   font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price_low{
+  color: rgba(150, 150, 150, 1);
+  margin-left: 50px;
+  font-size: 8px;
+}
+
+.stock{
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+
+.radio{
+height: 10px;
+margin-bottom: 2px;
 }
 
 .ionizer_stars{
   display: flex;
   align-items: center;
 }
+.img_ion_stars{
+  height: 8px;
+  margin-top: 4px;
+}
 
 .ionizer_text{
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .container_tick {
   display: flex;
   align-items: center;
-  font-size: 12px;
+  font-size: 10px;
+  margin-bottom: -15px;
+
 }
 
 .img_tick {
@@ -44,13 +76,14 @@ span {
   align-items: center;
   background-color: rgba(237, 243, 253, 1);
   border-radius: 8px;
-  font-size: 12px;
+  font-size: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
   padding-left: 15px
 }
 
 .img_percentage {
-  height: 20px;
+  height: 18px;
   margin-right: 10px;
 }
 
@@ -59,7 +92,8 @@ span {
   color: white;
   border-radius: 25px;
   text-align: center;
-  padding: 10px;
+  padding: 8px;
+  font-size: 12px;
 }
 
 .shipping {
@@ -86,15 +120,15 @@ span {
 }
 
 .img_cards {
-  height: 15px;
+  height: 10px;
 }
 
 .dismiss{
   color: rgba(248, 44, 44, 1);
   text-decoration: underline;
-  font-size: 14px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -102,11 +136,11 @@ span {
 .satisfaction{
   display: flex;
   align-items: center;
-  font-size: 11px;
+  font-size: 10px;
   text-align: justify;
 }
 
 .img_satisfaction{
-  height: 65px;
+  height: 60px;
   margin-right: 5px;
 }

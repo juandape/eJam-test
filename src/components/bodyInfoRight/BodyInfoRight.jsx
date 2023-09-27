@@ -11,23 +11,23 @@ export default function BodyInfoRight() {
         </div>
         <div className='container_ionizer'>
           <div>
-            <img src='../../public/smallclarifion.png' alt='smallclarifion' />
+            <img src='../../public/smallclarifion.png' alt='smallclarifion' className='img_smallclarifion'/>
           </div>
           <div className='ionizer_description'>
           <div className='ionizer-price'>
             <div>Clarifion Air Ionizer</div>
-            <div>$180</div>
+            <div className='price_low'>$180</div>
             <span>$84</span>
           </div>
           <div className='ionizer_stars'>
-            <img src='../../public/Star.png' alt='star' />
-            <img src='../../public/Star.png' alt='star' />
-            <img src='../../public/Star.png' alt='star' />
-            <img src='../../public/Star.png' alt='star' />
-            <img src='../../public/Star.png' alt='star' />
+            <img src='../../public/Star.png' alt='star' className='img_ion_stars'/>
+            <img src='../../public/Star.png' alt='star' className='img_ion_stars'/>
+            <img src='../../public/Star.png' alt='star' className='img_ion_stars'/>
+            <img src='../../public/Star.png' alt='star' className='img_ion_stars'/>
+            <img src='../../public/Star.png' alt='star' className='img_ion_stars'/>
           </div>
-          <div>
-            <input type='radio' checked />
+          <div className='stock'>
+            <input type='radio' checked className='radio'/>
             <label>12 left in Stock</label>
           </div>
           <div className='ionizer_text'>
