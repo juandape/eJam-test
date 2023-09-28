@@ -26,7 +26,10 @@
   cursor: pointer;
 }
 
-.Arrow1, .Arrow2, .Arrow3, .Arrow4 {
+.Arrow1,
+.Arrow2,
+.Arrow3,
+.Arrow4 {
   display: none;
 }
 .radio_slider {
@@ -42,7 +45,7 @@
   .header_text {
     width: 100%;
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 110px;
     position: absolute;
     background-size: cover;
     transition: all 0.5s ease;
@@ -100,8 +103,6 @@
   #Slider4:checked ~ .header .header_text:nth-of-type(4) {
     transform: translate(0%, 0);
   }
-
-
 
   .header .ArrowLeft,
   .header .ArrowRight {

@@ -3,10 +3,31 @@ import './header.css';
 export default function Header() {
   return (
     <div className='header-container'>
-      <input type='radio' name='header_text' id='Slider1' className='radio_slider' checked/>
-      <input type='radio' name='header_text' id='Slider2' className='radio_slider' />
-      <input type='radio' name='header_text' id='Slider3' className='radio_slider' />
-      <input type='radio' name='header_text' id='Slider4' className='radio_slider' />
+      <input
+        type='radio'
+        name='header_text'
+        id='Slider1'
+        className='radio_slider'
+        checked
+      />
+      <input
+        type='radio'
+        name='header_text'
+        id='Slider2'
+        className='radio_slider'
+      />
+      <input
+        type='radio'
+        name='header_text'
+        id='Slider3'
+        className='radio_slider'
+      />
+      <input
+        type='radio'
+        name='header_text'
+        id='Slider4'
+        className='radio_slider'
+      />
       <div className='header'>
         <div className='header_text'>
           <img src='images/Vector.png' alt='vector' className='header_img' />
@@ -39,7 +60,7 @@ export default function Header() {
           />
           <div>100% Money Back Guarantee</div>
         </div>
-        <label htmlFor='Slider3' className='ArrowLeft Arrow1'>
+        <label htmlFor='Slider4' className='ArrowLeft Arrow1'>
           ❮
         </label>
         <label htmlFor='Slider1' className='ArrowLeft Arrow2'>
@@ -48,7 +69,7 @@ export default function Header() {
         <label htmlFor='Slider2' className='ArrowLeft Arrow3'>
           ❮
         </label>
-        <label htmlFor='Slider4' className='ArrowLeft Arrow4'>
+        <label htmlFor='Slider3' className='ArrowLeft Arrow4'>
           ❮
         </label>
 
@@ -58,10 +79,10 @@ export default function Header() {
         <label htmlFor='Slider3' className='ArrowRight Arrow2'>
           ❯
         </label>
-        <label htmlFor='Slider1' className='ArrowRight Arrow3'>
+        <label htmlFor='Slider4' className='ArrowRight Arrow3'>
           ❯
         </label>
-        <label htmlFor='Slider4' className='ArrowRight Arrow4'>
+        <label htmlFor='Slider1' className='ArrowRight Arrow4'>
           ❯
         </label>
       </div>
