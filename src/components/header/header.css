@@ -52,7 +52,7 @@
     overflow-y: hidden;
   }
 
-  #Slider1:checked ~ .header .header_text:nth-of-type(1) {
+  #Slider1 ~ .header .header_text:nth-of-type(1) {
     transform: translate(0%, 0);
   }
   #Slider1:checked ~ .header .header_text:nth-of-type(2) {

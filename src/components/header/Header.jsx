@@ -1,6 +1,15 @@
+import { useState } from 'react';
+
 import './header.css';
 
 export default function Header() {
+  const [isSliderchecked, setSliderChecked] = useState(true);
+
+  const handleSlider = (e) => {
+    setSliderChecked(e.target.checked);
+  }
+
+
   return (
     <div className='header-container'>
       <input
@@ -8,7 +17,7 @@ export default function Header() {
         name='header_text'
         id='Slider1'
         className='radio_slider'
-        checked
+        checked={isSliderchecked}
       />
       <input
         type='radio'
@@ -60,7 +69,7 @@ export default function Header() {
           />
           <div>100% Money Back Guarantee</div>
         </div>
-        <label htmlFor='Slider4' className='ArrowLeft Arrow1'>
+        <label htmlFor='Slider4' className='ArrowLeft Arrow1' onClick={handleSlider}>
           ❮
         </label>
         <label htmlFor='Slider1' className='ArrowLeft Arrow2'>
@@ -73,7 +82,7 @@ export default function Header() {
           ❮
         </label>
 
-        <label htmlFor='Slider2' className='ArrowRight Arrow1'>
+        <label htmlFor='Slider2' className='ArrowRight Arrow1' onClick={handleSlider}>
           ❯
         </label>
         <label htmlFor='Slider3' className='ArrowRight Arrow2'>
